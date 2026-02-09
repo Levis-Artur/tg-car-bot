@@ -62,6 +62,7 @@ Left headlight not working
 
 Clone repository:
 
+'''bash
 git clone https://github.com/yourusername/repository-name.git
 cd repository-name
 
