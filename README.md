@@ -61,21 +61,21 @@ Left headlight not working
 ## 📦 Installation
 
 Clone repository:
-
-'''bash
+```
 git clone https://github.com/yourusername/repository-name.git
 cd repository-name
+```
 
 Create virtual environment:
-
+```
 python3 -m venv venv
 source venv/bin/activate
+```
 
 Install dependencies:
-
+```
 pip install -r requirements.txt
-
-
+```
 
 🔐 Environment Configuration (.env)
 
@@ -83,14 +83,15 @@ Sensitive data must not be stored in code.
 All secrets are stored in a .env file.
 
 Create a .env file in the project root:
-
+```
 touch .env
+```
 
 Add the following:
-
+```
 BOT_TOKEN=YOUR_TELEGRAM_BOT_TOKEN
 CHANNEL_ID=-100XXXXXXXXXX
-
+```
 Variables explanation
 Variable	Description
 BOT_TOKEN	Telegram bot token from BotFather
@@ -114,12 +115,13 @@ Send a message
 Use @RawDataBot or similar tools to see chat ID
 
 Channel IDs usually look like:
-
+```
 -1001234567890
-
+```
 ▶️ Running the bot
 
 Start the bot:
-
+```
 python index.py
+```
 Bot will start polling Telegram and become active.
